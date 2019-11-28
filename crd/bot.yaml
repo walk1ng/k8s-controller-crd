@@ -1,0 +1,11 @@
+apiVersion: apiextensions.k8s.io/vibeta1
+kind: CustomResourceDefinition
+metadata:
+  name: bots.samplecrd.k8s.io
+spec:
+  group: samplecrd.k8s.io
+  version: v1
+  names:
+    kind: Bot
+    plural: bots
+  scope: Namespaced
